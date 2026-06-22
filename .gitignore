@@ -15,3 +15,10 @@ desktop.ini
 
 # Carpetas de node si algún día se usan herramientas de desarrollo
 node_modules/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
